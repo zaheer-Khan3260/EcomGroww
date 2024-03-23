@@ -15,7 +15,7 @@ export class DatabaseServices{
 
     }
 
-    async createPost({ Name, Email, Message}){
+    async createPost({ Name, Email, Message, Number}){
         try {
             return await this.database.createDocument(
                 conf.appwriteDatabaseId,
@@ -24,7 +24,8 @@ export class DatabaseServices{
                 {
                     Name,
                     Email,
-                    Message
+                    Message,
+                    Number
                 }
 
             )

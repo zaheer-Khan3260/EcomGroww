@@ -176,13 +176,13 @@ export default function Home(){
         <div className="data-container">
           <h4>Total Customers</h4>
           <div className="count">
-            <p id="total-customers">0</p>
+            <p id="total-customers">350</p>
           </div>
         </div>
         <div className="data-container md:hidden lg:block">
           <h4>Optimize site</h4>
           <div className="count">
-            <p id="optimize-site">0</p>
+            <p id="optimize-site">100</p>
           </div>
         </div>
         <div className="data-container">
@@ -194,7 +194,7 @@ export default function Home(){
         <div className="data-container">
           <h4>Happy Customers</h4>
           <div className="count">
-            <p id="happy-customers">0</p>
+            <p id="happy-customers">295</p>
           </div>
         </div>
       </div>
@@ -213,10 +213,10 @@ export default function Home(){
    {
               choosUs.map((data) => (
                 <div className=" second-choosUs w-[18em] mx-auto md:w-[20em] md:h-[22em] lg:w-[15em] xl:w-[21em]">
-                  <div className=" w-full text-center mt-12">
+                  <div className=" w-full text-center mt-12 pt-10 md:pt-0">
                     <img src = {data.image}
                      alt=""
-                     className= " w-12 h-12 mx-auto lg:mt-6"
+                     className= " w-12 h-12 mx-auto mt-6"
                       />
                 </div>
                 <div className=" mt-8">

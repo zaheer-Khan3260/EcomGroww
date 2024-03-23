@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout from './Layout/Layout.jsx'
 import Home from './Components/Home/Home.jsx'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import NavBar from './Components/Navbar/Navbar.jsx'
 import Services from './Components/Services/Services.jsx'
 

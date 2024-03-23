@@ -9,15 +9,15 @@ import Services from './Components/Services/Services.jsx'
 
 const router = createBrowserRouter([
   {
-    path:"/EcomGroww/",
+    path:"/",
     element:<Layout/>,
     children: [
       {
-        path:"/EcomGroww/",
+        path:"/",
         element: <Home/>
       },
       {
-        path:"/EcomGroww//Services",
+        path:"/Services",
         element: <Services/>
       },
      

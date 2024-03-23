@@ -18,13 +18,13 @@ function NavBar() {
     {
       id: 1,
       navName: "Home",
-      linkTo: "/EcomGroww/",
+      linkTo: "/",
      
     },
     {
       id: 2,
       navName: "Services",
-      linkTo: "/EcomGroww/Services",
+      linkTo: "/Services",
      
     },
     

@@ -1,0 +1,268 @@
+
+
+.intro-container {
+    height: 35rem;
+    opacity: 0.8;
+    background-color: #5161CE;
+    
+  }
+  
+  .discrip-company-container {
+    width: 100%;
+    height: 53rem;
+    /* border: 2px solid red; */
+  }
+  
+  .name-of-comp {
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  .main-heading-swiper-container{
+    margin: 8rem 0rem 0rem 10rem;
+  }
+  
+  .company-name-image{
+    position: absolute;
+    top: -28rem;
+    left: 30rem;
+    width: 40rem;
+    height: 35rem;
+  }
+  .company-name-container {
+    /* border: 2px solid black; */
+    height: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  
+  .styleImage{
+    transform: all 1s ease-in-out;
+  }
+  .styleImage{
+    margin-top: 3rem;
+    position: relative;
+    animation: moving 4s infinite;
+  }
+  
+  @keyframes moving {
+    0%,100%{
+      transform: translateY(0);
+    }
+  
+    50%{
+      transform: translateY(30px);
+    }
+    
+  }
+  .team-work-cont{
+    margin: 8rem 0rem 0rem 10rem;
+  
+  }
+  .team-work-image{
+    position: absolute;
+    top: -26rem;
+    left: 30rem;
+    width: 40rem;
+    height: 40rem;
+    margin-left: 5rem;
+  }
+  .discription-container {
+    width: 100%;
+    text-align: center;
+    padding: 0px 15rem 0px 15rem
+  }
+  
+  .discription {
+    font-size: 23px;
+    margin: 0;
+  }
+  
+  /* main heading css end */
+  
+  
+  /* Services container css start */
+  
+  .services-discrip-text-cont{
+    font-family: "Services Font", sans-serif;
+}
+
+.services-container{
+    box-shadow: 20px 20px 20px 3px rgb(118 118 118 / 20%);
+    transition: scale 1s ease;
+}
+.services-container:hover{
+    scale: 1.1;
+}
+  
+  /* services container css end */
+  
+  /* client details css start */
+  
+  
+  .clients-details-container {
+    /* border: 2px solid red; */
+    background-color: white;
+    margin-top: 10em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+    text-align: center;
+    margin-right: 15em;
+    margin-left: 15em;
+    box-shadow: 20px 13px 19px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .data-container {
+    width: 13rem;
+    height: 15rem;
+    margin-top: 2.5rem;
+    font-size: 15px;
+    margin-left: 4rem;
+  }
+  h4{
+    font-size: 25px !important;
+  }
+  .count {
+      font-size: 50px;
+      font-weight: 400;
+      color: #1fb6fc;
+      line-height: 1;
+      display: inline-block;
+      margin-bottom: 5px;
+  }
+  
+  #happy-customers::after, #total-customers::after, 
+  #optimize-site::after{
+    content: "+";
+  }
+  
+  /* client details css start */
+  
+  /* why choos us css start */
+  .chossUs-childCont{
+    height: 40em;
+  }
+  .chossUs-text-cont{
+    margin-top: 5.2rem;
+    width: 100%;
+    height: 30em;
+   background: linear-gradient(to right, rgb(109,79,236), rgb(160,121,248));
+  }
+  
+  .chossUs-text-cont{
+    padding-top: 2.2em;
+    text-align: center;
+    color: white;
+  }
+  
+  .choosUs-discription-parentCont{
+    width: 100em;
+    height: 30em;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chossUs-secondText{
+    font-size: 2.5rem;
+  }
+  .choosUs-discriptions{
+    width: 21em;
+    height: 22em;
+    margin-left: 27px;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 10;
+    box-shadow:19px 19px 15px 1px rgba(0, 0, 0, 0.05);
+    transition: scale 1s ease;
+  }
+  .second-choosUs{
+    height: 22em;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 10;
+    box-shadow:19px 19px 15px 1px rgba(0, 0, 0, 0.05);
+    transition: scale 1s ease;
+  }
+  .second-choosUs:hover{
+    color: white !important;
+    background-color: rgb(31,182,252);
+    scale: 1.1;
+  }
+  
+  .choosUs-discriptions:hover{
+    color: white !important;
+    background-color: rgb(31,182,252);
+    scale: 1.1;
+  }
+  .chossUs-col1::before{
+    content: "";
+    display: block;
+    width: 60px; /* Adjust the width and height as needed */
+    height: 60px;
+    background-image: url('operation.png');
+    background-size: cover; /* Adjust the background size as needed */
+    position: relative;
+    left: 112px;
+    top: 25px;
+  }
+  
+  .chossUs-col2::before{
+    content: "";
+    display: block;
+    width: 60px; /* Adjust the width and height as needed */
+    height: 60px;
+    background-image: url('encrypted.png');
+    background-size: cover; /* Adjust the background size as needed */
+    position: relative;
+    left: 112px;
+    top: 25px;
+  }
+  .chossUs-col3::before{
+    content: "";
+    display: block;
+    width: 60px; /* Adjust the width and height as needed */
+    height: 60px;
+    background-image: url('community.png');
+    background-size: cover; /* Adjust the background size as needed */
+    position: relative;
+    left: 112px;
+    top: 25px;
+  }
+  .chossUs-col4::before{
+    content: "";
+    display: block;
+    width: 60px; /* Adjust the width and height as needed */
+    height: 60px;
+    background-image: url('information.png');
+    background-size: cover; /* Adjust the background size as needed */
+    position: relative;
+    left: 112px;
+    top: 25px;
+  }
+  
+  /* why choos us css end */
+
+  /* animation css */
+
+.scrollDown-animation{
+    opacity: 0;
+    transform: translateY(115px);
+    transition: all  1.5s ease;
+  }
+  .scrollUp-animation{
+    opacity: 0;
+    transform: translateY(-115px);
+    transition: all  1.5s ease;
+  }
+  .show{
+    opacity: 1;
+    transform: translateY(0);
+  }

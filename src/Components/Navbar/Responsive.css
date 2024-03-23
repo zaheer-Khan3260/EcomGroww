@@ -1,0 +1,431 @@
+/* Responsive for large laptop */
+
+@media (max-width: 1440px){
+    .info_box{
+       height: 31rem;
+       width: 19rem;
+      }
+      .main-heading-swiper-container{
+       margin: 8rem 0rem 0rem 2rem;
+     }
+     .company-name-image {
+       left: 27rem;
+       width: 36rem;
+       height: 31rem;
+   }
+   #services-text-cont {
+    margin-top: 13em;
+    width: 26em;
+    height: 30em;
+    margin-left: 3em;
+ }
+ .data-container {
+    margin-left: -1rem;
+ }
+  }
+ 
+ 
+  /* responsive for mackbook */
+ 
+    @media(max-width: 1280px){
+       .company-name-image {
+          top: -26rem; 
+          left: 24rem;
+          width: 34rem;
+          height: 29rem;
+      }
+      .service-cont {
+       height: 58em;
+       width: 91em;
+   }
+   #services-text-cont {
+    margin-top: 13em;
+    width: 20em;
+    height: 40em;
+    margin-left: 2em;
+ }
+ .services-text-head{
+    font-size: 1.5rem;
+ }
+ #services-items-cont {
+    width: 69em;
+    padding-left: 2em;
+ }
+ .services-item {
+    margin: 0px 16px 0px 0px;
+ }
+ .clients-details-container {
+    margin-right: 0em; 
+    margin-left: 0em; 
+ }
+ .choosUs-discription-parentCont {
+    width: 90em;
+ }
+ .choosUs-discriptions {
+    margin-left: 1.2em;
+ }
+    }
+  
+ 
+  /* Responsive for laptop 
+  */
+ @media (max-width: 1024px){
+     
+    .main-heading-swiper-container {
+       margin: 8rem 0rem 0rem -1rem;
+   }
+ 
+   .name-of-comp {
+    font-size: 3rem;
+    margin-left: 19px;
+ }
+ .company-details{
+ color: #5161ce;
+ font-size: 0.9rem;
+ text-align: center;
+ }
+ .company-name-image {
+    top: -21.5rem;
+    left: 21rem;
+    width: 26rem;
+    height: 24rem;
+ }
+ .service-cont {
+    height: 77em;
+    width: 90em;
+ }
+ #services-text-cont {
+    margin-top: 15em;
+ }
+ #services-items-cont{
+    margin-top: 3em;
+ }
+ .services-item {
+    margin-top: 28px;
+ }
+ .services-text-head{
+    font-size: 1.5rem;
+ }
+ .clients-details-container {
+    margin-right: 0; 
+     margin-left: 0; 
+     margin-top: 5em;
+ }
+ .data-container {
+    height: 6rem;
+ }
+ #chossUs-cont{
+    height: 36em;
+ }
+ .choosUs-discription-parentCont {
+    width: 71em;
+    height: 28em;
+ }
+ .choosUs-discriptions {
+    width: 18em;
+    height: 27em;
+    margin-left: 1em;
+ }
+ .chossUs-col1::before {
+    left: 93px;
+ }
+ .chossUs-col2::before {
+    left: 86px;
+ }
+ .chossUs-col3::before {
+    left: 93px;
+ }
+ .chossUs-col4::before {
+    left: 86px;
+ }
+      .first-footer-container{
+       width: 15rem;
+      }
+ 
+      .second-footer-container {
+       margin: 2.8rem 10px 10px 3rem;
+   }
+ }
+ 
+ /* responsive for iPad */
+ 
+ @media(max-width: 834px){
+    .company-name-image {
+       display: none;
+    }
+    .main-heading-swiper-container {
+     margin: 8rem 0rem 0rem 6rem;
+  }
+  .name-of-comp {
+     font-size: 3rem;
+     margin-left: 27px;
+  }
+  .service-cont {
+     height: 103em;
+     width: 100%;
+     display: block;
+     padding-top: 0.1rem;
+  }
+  #services-text-cont {
+     margin-top: 10em;
+     width: 25em;
+     height: 24em;
+     margin-left: 15em;
+     text-align: center;
+  }
+  
+  #services-items-cont {
+     width: 100%;
+     height: 64em;
+     padding-left: 0em;
+     justify-content: center;
+     margin-top: 4em;
+  }
+  
+  .services-item {
+     margin: 0px 18px 0px 0px;
+  }
+  .clients-details-container {
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: 5em;
+     width: 32rem;
+     height: 46em;
+  }
+  .data-container {
+     margin-left: 0rem;
+     margin-top: 43px;
+     height: 8em;
+  }
+  
+  #chossUs-cont{
+     height: 74em;
+  }
+  
+  .choosUs-discription-parentCont {
+     width: 51em;
+     height: 62em;
+     flex-wrap: wrap;
+  }
+  .choosUs-discriptions {
+     width: 23em;
+     height: 27em;
+     margin-left: 2em;
+  }
+  .chossUs-col1::before {
+     left: 132px;
+  }
+  .chossUs-col2::before {
+     left: 132px;
+  }
+  .chossUs-col3::before {
+     left: 132px;
+  }
+  .chossUs-col4::before {
+     left: 132px;
+  }
+  .first-footer-container {
+     width: 21rem;
+  }
+  .third-footer-container {
+     margin: 11px 10px 1px -2rem;
+  }
+ }
+ 
+ /* Respondive for tablet */
+ 
+ @media (max-width: 768px){
+    .company-name-image {
+      display: none;
+   }
+   .main-heading-swiper-container {
+    margin: 8rem 0rem 0rem 6rem;
+ }
+ .name-of-comp {
+    font-size: 3rem;
+    margin-left: 27px;
+ }
+ .service-cont {
+    height: 103em;
+    width: 55em;
+    display: block;
+    padding-top: 0.1rem;
+ }
+ #services-text-cont {
+    margin-top: 10em;
+    width: 25em;
+    height: 24em;
+    margin-left: 15em;
+    text-align: center;
+ }
+ 
+ #services-items-cont {
+    width: 55em;
+    height: 64em;
+    padding-left: 0em;
+    justify-content: center;
+    margin-top: 4em;
+ }
+ 
+ .services-item {
+    margin: 0px 18px 0px 0px;
+ }
+ .clients-details-container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5em;
+    width: 32rem;
+    height: 46em;
+ }
+ .data-container {
+    margin-left: 0rem;
+    margin-top: 43px;
+    height: 8em;
+ }
+ 
+ #chossUs-cont{
+    height: 74em;
+ }
+ 
+ .choosUs-discription-parentCont {
+    width: 51em;
+    height: 62em;
+    flex-wrap: wrap;
+ }
+ .choosUs-discriptions {
+    width: 23em;
+    height: 27em;
+    margin-left: 2em;
+ }
+ .chossUs-col1::before {
+    left: 132px;
+ }
+ .chossUs-col2::before {
+    left: 132px;
+ }
+ .chossUs-col3::before {
+    left: 132px;
+ }
+ .chossUs-col4::before {
+    left: 132px;
+ }
+ .first-footer-container {
+    width: 21rem;
+ }
+ .third-footer-container {
+    margin: 11px 10px 1px -2rem;
+ }
+ }
+ 
+ /* Responsive for mobile */
+ 
+ @media (max-width: 426px){
+    .navbar-logo {
+       padding: 0px;
+   }
+   .logo-image {
+    width: 9rem;
+    height: 2rem;
+ }
+ .main-heading-swiper-container {
+    margin: 6rem 0rem 0rem -1rem;
+ }
+ .name-of-comp {
+    font-size: 2rem;
+    margin-left: 43px;
+ }
+ .company-details {
+    font-size: 0.9rem;  
+ }
+ .service-cont {
+    height: auto;
+    width: 100%;
+    display: block;
+    padding-top: 4.1rem;
+ }
+ #services-text-cont {
+    margin-top: 9em;
+    height: 26em;
+    margin-left: 3em;
+    text-align: center;
+ }
+ #services-items-cont {
+    width: 30em;
+    height: auto;
+    margin-top: 5em;
+ }
+ .services-item {
+    margin: 49px 18px 0px 0px;
+ }
+ .clients-details-container {
+    width: 21rem; 
+ }
+ 
+ .choosUs-discription-parentCont {
+    width: 27em;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+ }
+ .choosUs-discriptions {
+    margin-top: 3em;
+ }
+ #chossUs-cont {
+    height: 131em;
+ }
+ 
+ 
+ 
+ .social-media-follow-container {
+    display: block;
+    align-items: center;
+    font-size: 28px;
+    height: 12vh;
+ }
+ .social-content-container {
+    font-size: 22px;
+    width: 100%;
+    margin-bottom: 15px;
+ }
+      .footer-content-container{
+       justify-content: center;
+      }
+      .second-footer-container {
+       text-align: start;
+       margin: 59px 28px 23px 1px;
+       width: 9rem;
+   }
+      .third-footer-container{
+       margin: 0px 0px 0px 0px;
+      }
+      .fourth-footer-container{
+       margin: 0;
+      }
+ }
+ 
+ @media(max-width: 412px){
+    #services-text-cont {
+       margin-left: 2em; 
+   }
+    #services-items-cont {
+       width: 29em;
+   }
+   .clients-details-container {
+    width: 20rem;
+ }
+   .chossUs-secondText {
+    font-size: 2rem;
+ }
+ }
+ 
+ @media(max-width: 360px){
+    .main-heading-swiper-container {
+       margin: 12rem 0rem 0rem -1rem;
+   }
+    .name-of-comp {
+       font-size: 2rem;
+       margin-left: 11px;
+   }
+   .company-details {
+    font-size: 0.8rem;
+ }
+ }

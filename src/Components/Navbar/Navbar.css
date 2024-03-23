@@ -1,0 +1,12 @@
+.mobile-nav{
+    animation: openNav 0.2s ease-in-out forwards;
+}
+
+@keyframes openNav{
+ 0%{
+    height: 0px;
+ }
+ 100%{
+ height: 15rem;
+ }
+}

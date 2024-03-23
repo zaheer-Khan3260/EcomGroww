@@ -136,8 +136,10 @@ export default function Home(){
                 <h4 className="animation text-blue-900 mt-4 text-2xl">Our Services</h4>
             </div>
             <div className="p-4 animation">
-            At Paramth Groupe, we offer a comprehensive range of services to make your real estate journey a seamless and rewarding experience.
-            Whether you're a first-time homebuyer, an experienced investor, or looking to sell your property, our team of dedicated professionals is here to assist you every step of the way.
+            Our digital marketing services empower your brand's online presence.
+           We specialize in SEO, social media management, content creation, and data-driven strategies.
+           By optimizing your digital footprint, we enhance visibility, engage your target audience, and drive growth.
+           Let us elevate your online marketing game for lasting success.
             </div>
         </div>
         <div className="animation w-96 h-auto hidden lg:block xl:w-[30rem]">
